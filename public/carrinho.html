@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="icon" type="image/x-icon" href="..//public/images/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="texto-esquerda">
+            <a class="texto" href="./loja.html">Loja</a>
+            <a class="texto" href="./usuario.html">Perfil</a>
+        </div>
+        <a class="titulo" href="index.html">Mercado Místico</a>
+        <div class="texto-direito">
+            <a class="texto" href="./login.html">Login</a>
+            <a class="texto" href="./carrinho.html">Carrinho</a>
+        </div>
+    </header>
+
+    <div class="conteudo">
+        <h1>Carrinho de Compras</h1>
+        <div id="carrinho-produtos" class="coluna">
+        </div>
+        <div id="total" class="total">
+            Total: R$<span id="total-preco">0.00</span>
+        </div>
+        <button id="finalizar-compra" class="botao">Finalizar Compra</button>
+    </div>
+
+    <script src="../public/js/carrinho.js"></script>
+</body>
+</html>

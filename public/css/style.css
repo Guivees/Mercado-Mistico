@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/galaxia.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+}
+
+.texto-esquerda, .texto-direito {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.texto {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #000;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+
+
+
+
+.container {
+ 
+    margin-top: 80px;
+}
+
+.button {
+    font-size: 30px;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+.texto-dois {
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center; 
+}
+
+.texto-dois p {
+    margin: 7px;
+    margin-top: 20px; 
+    font-size: 22px;
+    color: #ffffff; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+

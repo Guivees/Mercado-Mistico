@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    padding: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+}
+
+.texto-esquerda, .texto-direito {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.texto {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #000;
+}
+.tudao {
+    max-width: 600px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.grupoformulario {
+    margin-bottom: 15px;
+}
+
+.grupoformulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.grupoformulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botaoenviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botaoenviar:hover {
+    background-color: #000000;
+}

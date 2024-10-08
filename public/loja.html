@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="icon" type="image/x-icon" href="../public/images/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="texto-esquerda">
+            <a class="texto" href="./loja.html">Loja</a>
+            <a class="texto" href="./usuario.html">Perfil</a>
+        </div>
+        <a class="titulo" href="index.html">Mercado Místico</a>
+        <div class="texto-direito">
+            <a class="texto" href="./login.html">Login</a>
+            <a class="texto" href="./carrinho.html">Carrinho</a>
+        </div>
+    </header>
+
+    <div class="conteudo">
+        <button onclick="sair(event)">Sair</button>
+        <div style="display: none; margin-bottom: 80px;" id="cadastrar_produto">
+            <input type="text" id="title" placeholder="Nome do produto">
+            <input type="text" id="price" placeholder="Preço do produto">
+            <input type="file" id="file">
+            <button onclick="cadastrarProduto(event)">Inserir</button>
+        </div>
+
+        <div class="coluna" id="card-produto"></div>
+        
+        <div id="editar_produto" style="display: none;" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <h2>Editar Produto</h2>
+                <input type="hidden" id="id_produto" value="">
+                <input type="text" id="editar_titulo" placeholder="Nome do produto">
+                <input type="text" id="editar_preco" placeholder="Preço do produto">
+                <img src="" alt="" id="imagem_produto" width="50px" height="50px"><br>
+                <input type="file" id="editar_imagem"><br>
+                <button onclick="atualizarProduto(event)">Atualizar</button>
+                <br>
+                <button onclick="fecharModal()">Fechar</button>
+                <br>
+                <center><button onclick="excluirProduto(event)">Excluir Produto</button></center>
+            </div>
+        </div>
+
+    <script src="../public/js/script.js"></script>
+</body>
+</html>
