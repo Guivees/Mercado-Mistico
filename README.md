@@ -1,6 +1,6 @@
 # Mercado Místico
 
-https://guivees.github.io/Mercado-Ultra-Mistico/
+https://guivees.github.io/Mercado-Mistico/
 (provavelmente o site não estará funcionando no upload do github, pois ele depende de um banco de dados mysql2 para cumprir todas as funcionalidades)
 
 O Mercado Místico é um projeto técnico com o objetivo de criar uma plataforma de mercado integrada com um banco de dados SQL.
